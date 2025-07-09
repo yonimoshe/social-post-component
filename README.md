@@ -41,7 +41,7 @@ Encapsulated via **Shadow DOM**, themeable (light/dark), accessible, and respons
 
 ## 🏗️ Folder Structure
 
-```text
+```plaintext
 /components/SocialPost/
 │
 ├── SocialPost.js            # Core Web Component definition
@@ -58,7 +58,7 @@ Encapsulated via **Shadow DOM**, themeable (light/dark), accessible, and respons
 
 1. Clone the repo  
    ```bash
-   git clone https://github.com/your-username/social-post-component.git
+   git clone https://github.com/yonimoshe/social-post-component.git
    cd social-post-component
    ```
 
