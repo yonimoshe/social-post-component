@@ -65,6 +65,15 @@ Encapsulated via **Shadow DOM**, themeable (light/dark), accessible, and respons
 2. Open `index.html` directly in your browser  
    - or use [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) in VS Code for auto-refresh
 
+### 🛠️ Alternate way to run locally (recommended for Chrome users):
+
+If your browser blocks ES modules from file:// paths, you can use a local dev server:
+
+```bash
+npx serve .
+
+Then open the printed URL in your browser (e.g., http://localhost:3000)
+
 ---
 
 ## 🛠️ Tech Stack
