@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Social Post Demo</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+    <script type="module" src="components/SocialPost/index.js"></script>
+  </head>
+  <body>
+    <div class="main-container">
+      <h1>Social Post Component</h1>
+          <button class="theme-toggle">Switch Theme</button>
+            <social-post
+            display-name="Jane Doe"
+            username="@janedoe"
+            timestamp="6 days ago"
+            avatar="https://i.pravatar.cc/40?img=3"
+            content="short text"
+            theme="light"
+            >
+        </social-post>
+
+            <social-post
+            display-name="Jane Doe"
+            username="@janedoe"
+            timestamp="6 days ago"
+            avatar="https://i.pravatar.cc/40?img=2"
+            content="It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it..."
+            theme="dark"
+            >
+        </social-post>
+    </div>
+    <script type="module">
+        import { setupThemeToggle } from "./components/SocialPost/themeToggle.js";
+        setupThemeToggle("social-post", ".theme-toggle");
+    </script>
+  </body>
+</html>
